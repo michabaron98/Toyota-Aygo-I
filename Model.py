@@ -33,9 +33,12 @@ training_file=pd.read_csv(Train_data_path)
 
 Y_training=training_file[["price"]].round(decimals=-2)
 Features_X=[]
-X_training_year=training_file[["year"]]
+X_training_1=training_file[["year","location"]]
+print(X_training_1)
 X_training_mileage=pd.DataFrame(training_file[["mileage"]].round(decimals=-3),columns=['mileage'])
-X_training=X_training_year.join(X_training_mileage)
+X_training=X_training_1.join(X_training_mileage)
+#X_training=X_training.join(training_file["location"])
+X_training
 
 
 # In[5]:
@@ -50,10 +53,10 @@ Y_training.describe()
 X_training.describe()
 
 
-# In[7]:
+# In[11]:
 
 
-model=RandomForestRegressor(n_estimators=100, oob_score=True, random_state=42)
+model=RandomForestRegressor(n_estimators=100, oob_score=True, random_state=16)
 model.fit(X_training, Y_training)
 predictions=model.predict(X_training)
 
@@ -62,13 +65,11 @@ predictions=model.predict(X_training)
 
 
 moja_toyota=[]
-moja_toyota.append([2011,117300])
-moja_toyota_df=pd.DataFrame(moja_toyota, columns=["year","mileage"])
+moja_toyota.append([2011,1,117300])
+moja_toyota_df=pd.DataFrame(moja_toyota, columns=["year","mileage","location"])
 predictions=model.predict(moja_toyota_df)
-print("Price: ", predictions)
+print("Price: {} PLN".format(int(predictions)))
 
-
-# In[ ]:
 
 
 
