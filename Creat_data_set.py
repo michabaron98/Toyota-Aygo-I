@@ -19,8 +19,62 @@ URL='https://www.otomoto.pl/osobowe/toyota/aygo/?search%5Bfilter_enum_generation
 # In[3]:
 
 
-cars=pd.DataFrame(columns=["year","mileage","price"])
-for i in range(1,7):
+def get_quantity_of_pages(URL):
+    web=requests.get(URL+'1')
+    soup=BeautifulSoup(web.text, 'html.parser')
+    pages=soup.find_all('span', attrs={'class':'page'})
+    last_page=[]
+    last_page=str(pages).split('<span class="page">')
+    last_page=last_page[-1].split('<')
+    #print(last_page)
+    end=int(last_page[0])
+    
+    return end
+
+
+# In[4]:
+
+
+end=get_quantity_of_pages(URL)
+#end
+
+
+# In[5]:
+
+
+def convert_location_into_number(loc):
+    switcher = {
+        'Dolnośląskie':1,
+        'Kujawsko-pomorskie':2,
+        'Lubelskie':3,
+        'Lubuskie':4,
+        'Łódzkie':5,
+        'Małopolskie':6,
+        'Mazowieckie':7,
+        'Opolskie':8,
+        'Podkarpackie':9,
+        'Podlaskie':10,
+        'Pomorskie':11,
+        'Śląskie':12,
+        'Świętokrzyskie':13,
+        'Warmińsko-mazurskie':14,
+        'Wielkopolskie':15,
+        'Zachodniopomorskie':16
+    }      
+    return switcher.get(loc, "Voivodeship")
+
+
+# In[ ]:
+
+
+
+
+
+# In[6]:
+
+
+cars=pd.DataFrame(columns=["year","mileage","price","location"])
+for i in range(1,end+1):
     New_URL=URL+str(i)
     web=requests.get(New_URL)
     soup=BeautifulSoup(web.text, 'html.parser')
@@ -42,19 +96,24 @@ for i in range(1,7):
         price=re.findall(r'\d+', price)
         price="".join(price)
         price=int(price)
-        cars_buffor.append([year,mileage,price])
-    cars_buffor1=pd.DataFrame(cars_buffor, columns=["year","mileage","price"])
+        location=list_of_lines[list_of_lines.index('<span class="icon-location-2 ds-location-icon"></span>')+2]
+        location=location.split('(')
+        location=location[1].split(')')
+        location=convert_location_into_number(location[0])
+        cars_buffor.append([year,mileage,price,location])
+    cars_buffor1=pd.DataFrame(cars_buffor, columns=["year","mileage","price","location"])
     #print(cars_buffor1)
+    #cars_buffor1=
     cars=cars.append(cars_buffor1, ignore_index = True)
 
 
-# In[4]:
+# In[7]:
 
 
 cars
 
 
-# In[5]:
+# In[8]:
 
 
 cars.to_csv("Toyota_aygo_I.csv", index=False)
