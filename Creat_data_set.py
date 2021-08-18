@@ -61,7 +61,7 @@ def convert_location_into_number(loc):
         'Wielkopolskie':15,
         'Zachodniopomorskie':16
     }      
-    return switcher.get(loc, "Voivodeship")
+    return switcher.get(loc)
 
 
 # In[ ]:
