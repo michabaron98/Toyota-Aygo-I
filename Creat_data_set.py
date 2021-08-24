@@ -1,4 +1,5 @@
 from numpy import zeros
+from numpy.lib.utils import info
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -113,21 +114,97 @@ def get_links_to_offers(URL):
             list_of_links.append(result.get("href"))
     return list_of_links
 def get_data_from_offer(URL):
+    #ToDo:
+    #Cleaning data
     """
     Function returns a dictionary with information about the car
     -----
     URL - (string) URL adress 
     """
-    keys=['Saler','Production Year','Transmition','Quantity of doors',
-    'Color', 'Invoice','Country of origin', 'First Registration','Polish Registration',
-    'First owner', 'accident-free','serviced in aso','alloy wheels','description']
+    keys=['Saler','Production Year','Milage','Transmition','Quantity of doors',
+    'Color', 'Invoice','Country of origin', 'accident-free','serviced in aso', 'First Registration','Polish Registration',
+    'First owner','alloy wheels','description']
     info_dict=dict(dict(zip(keys,zeros(len(keys)))))
-    print(info_dict)
     web=requests.get(URL)
     soup=BeautifulSoup(web.text, 'html.parser')
-    results_vin=soup.find_all('div', attrs={'class':'offer-params with-vin'})
-    results_accessory=soup.find_all('div', attrs={'class':'offer-features__row'})
+    results_vin_accessories=str(soup.find_all('li', attrs={'class':'offer-params__item'})).split('\n')
+    print(results_vin_accessories)
+    try:
+        info_dict['Saler']=results_vin_accessories[results_vin_accessories.index(
+            '<span class="offer-params__label">Oferta od</span>')+3]
+    except:
+        info_dict['Saler']='NaN'
+    try:
+        info_dict['Production Year']=results_vin_accessories[results_vin_accessories.index(
+            '<span class="offer-params__label">Rok produkcji</span>')+2]
+    except:
+        info_dict['Production Year']='NaN'
+    try:
+        info_dict['Milage']=results_vin_accessories[results_vin_accessories.index(
+            '<span class="offer-params__label">Przebieg</span>')+3]
+    except:
+        info_dict['Milage']='NaN'
+    try:
+        info_dict['Transmition']=results_vin_accessories[results_vin_accessories.index(
+            '<span class="offer-params__label">Skrzynia biegów</span>')+3]
+    except:
+        info_dict['Transmition']='NaN'
+    try:
+        info_dict['Quantity of doors']=results_vin_accessories[results_vin_accessories.index(
+            '<span class="offer-params__label">Liczba drzwi</span>')+2]
+    except:
+        info_dict['Quantity of doors']='NaN'
+    try:
+        info_dict['Color']=results_vin_accessories[results_vin_accessories.index(
+            '<span class="offer-params__label">Kolor</span>')+3]
+    except:
+        info_dict['Color']='NaN'
+    try:
+        info_dict['Invoice']=results_vin_accessories[results_vin_accessories.index(
+            '<span class="offer-params__label">VAT marża</span>')+3]
+    except:
+        info_dict['Invoice']='NaN'
+    try:
+        info_dict['Country of origin']=results_vin_accessories[results_vin_accessories.index(
+            '<span class="offer-params__label">Kraj pochodzenia</span>')+3]
+    except:
+        info_dict['Country of origin']='NaN'
+    try:
+        info_dict['accident-free']=results_vin_accessories[results_vin_accessories.index(
+            '<span class="offer-params__label">Bezwypadkowy</span>')+3]
+    except:
+        info_dict['accident-free']='NaN'
+    try:
+        info_dict['serviced in aso']=results_vin_accessories[results_vin_accessories.index(
+            '<span class="offer-params__label">Serwisowany w ASO</span>')+3]
+    except:
+        info_dict['serviced in aso']='NaN'
+    try:
+        info_dict['First Registration']=results_vin_accessories[results_vin_accessories.index(
+            '<span class="offer-params__label">Pierwsza rejestracja</span>')+3]
+    except:
+        info_dict['First Registration']='NaN'
+    try:
+        info_dict['Polish Registration']=results_vin_accessories[results_vin_accessories.index(
+            '<span class="offer-params__label">Zarejestrowany w Polsce</span>')+3]
+    except:
+        info_dict['Polish Registration']='NaN'
+    try:
+        info_dict['First owner']=results_vin_accessories[results_vin_accessories.index(
+            '<span class="offer-params__label">Pierwszy właściciel</span>')+3]
+    except:
+        info_dict['First owner']='NaN'
+    #Moze byc problem z alusami
+    #info_dict['alloy wheels']=results_vin_accessories[results_vin_accessories.index('<span class="offer-params__label">Pierwsza rejestracja</span>')]
+       #dokończyć pobieranie reszty danych
+
+
+    print(info_dict)
+    #results_accessory=soup.find_all('div', attrs={'class':'offer-features__row'})
     results_description=soup.find_all('div',attrs={'class':'offer-description__description'})
+    #info_dict['description']=results_description[results_description.index(<div class="offer-description__description" data-read-more="" data-text="Pokaż&nbsp;pełny opis" data-hide-text="Ukryj opis" data-readmore="" aria-expanded="false" id="rmjs-1" style="max-height: none; height: 520px;">
+ 
+     
     return info_dict
 
 URL='https://www.otomoto.pl/osobowe/toyota/aygo/?search%5Bfilter_enum_generation%5D%5B0%5D=gen-i-2005-2014&search%5Bfilter_enum_fuel_type%5D%5B0%5D=petrol&search%5Bfilter_enum_gearbox%5D%5B0%5D=manual&search%5Bfilter_enum_gearbox%5D%5B1%5D=manual-sequential&search%5Bfilter_enum_damaged%5D=0&search%5Border%5D=created_at%3Adesc&search%5Bbrand_program_id%5D%5B0%5D=&search%5Bcountry%5D=1&page='
