@@ -64,7 +64,7 @@ def convert_location_into_number(loc):
         'Zachodniopomorskie':16
     }      
     return switcher.get(loc)
-def get_details_from_offer_item_wraper(URL):
+def get_data_from_offer_item_wraper(URL):
     end=get_quantity_of_pages(URL)
 
     cars=pd.DataFrame(columns=["year","mileage","price","location"])
@@ -99,6 +99,7 @@ def get_details_from_offer_item_wraper(URL):
     #print(cars_buffor1)
     #cars_buffor1=
         cars=cars.append(cars_buffor1, ignore_index = True)
+    cars.drop(["year","mileage"], axis=1, inplace=True)    
     return cars
 def get_links_to_offers(URL):
     end=get_quantity_of_pages(URL)
@@ -122,87 +123,99 @@ def get_data_from_offer(URL):
     URL - (string) URL adress 
     """
     keys=['Saler','Production Year','Milage','Transmition','Quantity of doors',
-    'Color', 'Invoice','Country of origin', 'accident-free','serviced in aso', 'First Registration','Polish Registration',
-    'First owner','alloy wheels','description']
+    'Color', 'Invoice','Country of origin', 'Accident-free','Serviced in aso', 'First registration','Polish registration',
+    'First owner','Alloy wheels','Description']
     info_dict=dict(dict(zip(keys,zeros(len(keys)))))
     web=requests.get(URL)
     soup=BeautifulSoup(web.text, 'html.parser')
     results_vin_accessories=str(soup.find_all('li', attrs={'class':'offer-params__item'})).split('\n')
-    print(results_vin_accessories)
     try:
-        info_dict['Saler']=results_vin_accessories[results_vin_accessories.index(
+        #Saler=""
+        Saler=results_vin_accessories[results_vin_accessories.index(
             '<span class="offer-params__label">Oferta od</span>')+3]
+        info_dict['Saler']=Saler[:-4].strip()
     except:
         info_dict['Saler']='NaN'
     try:
-        info_dict['Production Year']=results_vin_accessories[results_vin_accessories.index(
+        Production_Year=results_vin_accessories[results_vin_accessories.index(
             '<span class="offer-params__label">Rok produkcji</span>')+2]
+        info_dict['Production Year']=int(Production_Year[:-6].strip())
     except:
         info_dict['Production Year']='NaN'
     try:
-        info_dict['Milage']=results_vin_accessories[results_vin_accessories.index(
-            '<span class="offer-params__label">Przebieg</span>')+3]
+        Milage=results_vin_accessories[results_vin_accessories.index(
+            '<span class="offer-params__label">Przebieg</span>')+2]
+        info_dict['Milage']=Milage[:-6].strip()
     except:
         info_dict['Milage']='NaN'
     try:
-        info_dict['Transmition']=results_vin_accessories[results_vin_accessories.index(
+        Transmition=results_vin_accessories[results_vin_accessories.index(
             '<span class="offer-params__label">Skrzynia biegów</span>')+3]
+        info_dict['Transmition']=Transmition[:-4].strip()
     except:
         info_dict['Transmition']='NaN'
     try:
-        info_dict['Quantity of doors']=results_vin_accessories[results_vin_accessories.index(
+        Quantity_of_doors=results_vin_accessories[results_vin_accessories.index(
             '<span class="offer-params__label">Liczba drzwi</span>')+2]
+        info_dict['Quantity of doors']=Quantity_of_doors[:-6].strip()
     except:
         info_dict['Quantity of doors']='NaN'
     try:
-        info_dict['Color']=results_vin_accessories[results_vin_accessories.index(
+        Color=results_vin_accessories[results_vin_accessories.index(
             '<span class="offer-params__label">Kolor</span>')+3]
+        info_dict['Color']=Color[:-4].strip()
     except:
         info_dict['Color']='NaN'
     try:
-        info_dict['Invoice']=results_vin_accessories[results_vin_accessories.index(
+        Invoice=results_vin_accessories[results_vin_accessories.index(
             '<span class="offer-params__label">VAT marża</span>')+3]
+        info_dict['Invoice']=1
     except:
-        info_dict['Invoice']='NaN'
+        info_dict['Invoice']=0
     try:
-        info_dict['Country of origin']=results_vin_accessories[results_vin_accessories.index(
+        Country_of_origin=results_vin_accessories[results_vin_accessories.index(
             '<span class="offer-params__label">Kraj pochodzenia</span>')+3]
+        info_dict['Country of origin']=Country_of_origin[:-4].strip()
     except:
         info_dict['Country of origin']='NaN'
     try:
-        info_dict['accident-free']=results_vin_accessories[results_vin_accessories.index(
+        Accident_free=results_vin_accessories[results_vin_accessories.index(
             '<span class="offer-params__label">Bezwypadkowy</span>')+3]
+        info_dict['Accident-free']=1
     except:
-        info_dict['accident-free']='NaN'
+        info_dict['Accident-free']=0
     try:
-        info_dict['serviced in aso']=results_vin_accessories[results_vin_accessories.index(
+        Serviced_in_aso=results_vin_accessories[results_vin_accessories.index(
             '<span class="offer-params__label">Serwisowany w ASO</span>')+3]
+        info_dict['Serviced in aso']=1
     except:
-        info_dict['serviced in aso']='NaN'
+        info_dict['Serviced in aso']=0
     try:
-        info_dict['First Registration']=results_vin_accessories[results_vin_accessories.index(
-            '<span class="offer-params__label">Pierwsza rejestracja</span>')+3]
+        First_registration=results_vin_accessories[results_vin_accessories.index(
+            '<span class="offer-params__label">Pierwsza rejestracja</span>')+2]
+        info_dict['First registration']=First_registration[:-6].strip()
     except:
-        info_dict['First Registration']='NaN'
+        info_dict['First registration']='NaN'
     try:
-        info_dict['Polish Registration']=results_vin_accessories[results_vin_accessories.index(
+        Polish_registration=results_vin_accessories[results_vin_accessories.index(
             '<span class="offer-params__label">Zarejestrowany w Polsce</span>')+3]
+        info_dict['Polish registration']=1
     except:
-        info_dict['Polish Registration']='NaN'
+        info_dict['Polish registration']=0
     try:
-        info_dict['First owner']=results_vin_accessories[results_vin_accessories.index(
+        First_owner=results_vin_accessories[results_vin_accessories.index(
             '<span class="offer-params__label">Pierwszy właściciel</span>')+3]
+        info_dict['First owner']=1
     except:
-        info_dict['First owner']='NaN'
+        info_dict['First owner']=0
     #Moze byc problem z alusami
     #info_dict['alloy wheels']=results_vin_accessories[results_vin_accessories.index('<span class="offer-params__label">Pierwsza rejestracja</span>')]
        #dokończyć pobieranie reszty danych
 
 
-    print(info_dict)
     #results_accessory=soup.find_all('div', attrs={'class':'offer-features__row'})
-    results_description=soup.find_all('div',attrs={'class':'offer-description__description'})
-    #info_dict['description']=results_description[results_description.index(<div class="offer-description__description" data-read-more="" data-text="Pokaż&nbsp;pełny opis" data-hide-text="Ukryj opis" data-readmore="" aria-expanded="false" id="rmjs-1" style="max-height: none; height: 520px;">
+    #results_description=soup.find_all('div',attrs={'class':'offer-description__description'})
+    #info_dict['description']=results_description
  
      
     return info_dict
@@ -210,7 +223,14 @@ def get_data_from_offer(URL):
 URL='https://www.otomoto.pl/osobowe/toyota/aygo/?search%5Bfilter_enum_generation%5D%5B0%5D=gen-i-2005-2014&search%5Bfilter_enum_fuel_type%5D%5B0%5D=petrol&search%5Bfilter_enum_gearbox%5D%5B0%5D=manual&search%5Bfilter_enum_gearbox%5D%5B1%5D=manual-sequential&search%5Bfilter_enum_damaged%5D=0&search%5Border%5D=created_at%3Adesc&search%5Bbrand_program_id%5D%5B0%5D=&search%5Bcountry%5D=1&page='
 #cars_basic=get_details_from_offer_item_wraper(URL)
 #cars_basic.to_csv("Toyota_aygo_I.csv", index=False)
+data_from_offer=pd.DataFrame()
+df=pd.DataFrame()
+data_from_main_page=get_data_from_offer_item_wraper(URL)
 links_to_all_cars=get_links_to_offers(URL)
-car_info=get_data_from_offer(links_to_all_cars[0])
+for link in links_to_all_cars:
+    cars_buffor1=get_data_from_offer(link)
+    data_from_offer=data_from_offer.append(cars_buffor1, ignore_index = True)
+df =pd.concat([data_from_offer,data_from_main_page], axis=1)
+df.to_csv("Cars_details.csv")
 
 #print("quantity of elements: {}\nelements:\n{}".format(len(links_to_all_cars),links_to_all_cars))
