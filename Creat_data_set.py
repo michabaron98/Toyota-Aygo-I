@@ -211,9 +211,14 @@ def get_data_from_offer(URL):
     #Moze byc problem z alusami
     #info_dict['alloy wheels']=results_vin_accessories[results_vin_accessories.index('<span class="offer-params__label">Pierwsza rejestracja</span>')]
        #dokończyć pobieranie reszty danych
-
-
-    #results_accessory=soup.find_all('div', attrs={'class':'offer-features__row'})
+    try: 
+        results_inventory=str(soup.find_all('li', attrs={'class':'offer-features__item'})).split('\n')
+        alloy_wheels=results_inventory[results_inventory.index(
+           '<span class="offer-features__icon icon-tick"></span>Alufelgi                        </li>, <li class="offer-features__item">')]
+        info_dict['Alloy wheels']=1
+    except:
+        info_dict['Alloy wheels']=0
+    #
     #results_description=soup.find_all('div',attrs={'class':'offer-description__description'})
     #info_dict['description']=results_description
  

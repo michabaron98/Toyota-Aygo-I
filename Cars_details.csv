@@ -1,182 +1,178 @@
 ,Saler,Production Year,Milage,Transmition,Quantity of doors,Color,Invoice,Country of origin,Accident-free,Serviced in aso,First registration,Polish registration,First owner,Alloy wheels,Description,price,location
-0,Osoby prywatnej,2009.0,164 000 km,Manualna,3,Czerwony,1.0,Niemcy,1.0,1.0,14/07/2009,0.0,0.0,0.0,0.0,11900,7
-1,Osoby prywatnej,2006.0,159 800 km,Manualna,3,Czerwony,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,7900,15
-2,Osoby prywatnej,2008.0,128 000 km,Manualna,3,Czerwony,1.0,Niemcy,1.0,1.0,NaN,0.0,0.0,0.0,0.0,11900,5
-3,Firmy,2008.0,129 803 km,Manualna,5,Szary,0.0,Polska,0.0,1.0,09/04/2008,1.0,0.0,0.0,0.0,12000,12
-4,Osoby prywatnej,2019.0,15 000 km,Manualna,5,Biały,0.0,Polska,1.0,1.0,13/08/2019,1.0,1.0,0.0,0.0,37000,7
-5,Osoby prywatnej,2005.0,121 400 km,Manualna,3,Inny kolor,0.0,NaN,0.0,0.0,03/11/2005,1.0,0.0,0.0,0.0,8500,5
-6,Osoby prywatnej,2010.0,83 000 km,Manualna,5,Biały,1.0,Francja,1.0,1.0,13/03/2010,1.0,0.0,0.0,0.0,12400,15
-7,Osoby prywatnej,2012.0,135 000 km,Manualna,5,Biały,1.0,NaN,1.0,1.0,25/07/2012,1.0,0.0,0.0,0.0,12700,10
-8,Osoby prywatnej,2007.0,142 700 km,Manualna,5,Czerwony,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,11900,15
-9,Firmy,2009.0,194 650 km,Manualna,5,Srebrny,1.0,Niemcy,0.0,0.0,NaN,1.0,0.0,0.0,0.0,12900,7
-10,Firmy,2007.0,144 000 km,Manualna,5,Niebieski,0.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,11200,15
-11,Osoby prywatnej,2009.0,116 000 km,Manualna,3,Szary,0.0,Niemcy,1.0,1.0,02/07/2009,0.0,0.0,0.0,0.0,7900,15
-12,Firmy,2008.0,314 000 km,Manualna,3,Czerwony,1.0,Szwecja,0.0,1.0,12/09/2008,0.0,1.0,0.0,0.0,6400,13
-13,Osoby prywatnej,2012.0,160 661 km,Manualna,5,Biały,1.0,NaN,1.0,1.0,31/05/2012,0.0,0.0,0.0,0.0,17800,1
-14,Firmy,2013.0,112 405 km,Manualna,5,Czerwony,0.0,Polska,0.0,1.0,28/11/2013,1.0,0.0,0.0,0.0,18000,7
-15,Firmy,2010.0,86 000 km,Manualna,5,Biały,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,13333,7
-16,Osoby prywatnej,2014.0,107 000 km,Manualna,5,Czerwony,0.0,Polska,1.0,1.0,26/02/2014,0.0,1.0,0.0,0.0,23500,12
-17,Osoby prywatnej,2007.0,152 000 km,Manualna,3,Szary,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,8900,8
-18,Firmy,2009.0,117 000 km,Manualna,5,Srebrny,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,12999,15
-19,Firmy,2006.0,182 000 km,Manualna,5,Szary,1.0,NaN,0.0,0.0,22/06/2006,0.0,0.0,0.0,0.0,9200,2
-20,Osoby prywatnej,2009.0,115 000 km,Manualna,5,Niebieski,1.0,Niemcy,1.0,1.0,01/04/2009,1.0,0.0,0.0,0.0,15700,7
-21,Firmy,2008.0,129 803 km,Manualna,5,Szary,0.0,Polska,0.0,1.0,09/04/2008,1.0,0.0,0.0,0.0,12300,12
-22,Osoby prywatnej,2010.0,105 000 km,Manualna,5,Srebrny,0.0,NaN,0.0,0.0,NaN,1.0,0.0,0.0,0.0,13389,7
-23,Firmy,2009.0,117 000 km,Manualna,3,Czerwony,1.0,Niemcy,0.0,0.0,30/06/2009,1.0,0.0,0.0,0.0,10900,15
-24,Firmy,2010.0,69 000 km,Manualna,3,Czerwony,1.0,Polska,1.0,1.0,17/12/2010,1.0,1.0,0.0,0.0,14999,12
-25,Firmy,2008.0,124 000 km,Manualna,5,Czerwony,1.0,Szwajcaria,1.0,1.0,12/12/2008,1.0,1.0,0.0,0.0,12400,5
-26,Firmy,2008.0,196 000 km,Manualna,3,Biały,1.0,Niemcy,0.0,0.0,29/09/2008,0.0,0.0,0.0,0.0,8499,5
-27,Firmy,2008.0,53 000 km,Manualna,3,Czerwony,0.0,Polska,0.0,0.0,12/05/2008,0.0,0.0,0.0,0.0,12500,7
-28,Osoby prywatnej,2009.0,149 000 km,Manualna,5,Niebieski,1.0,Niemcy,1.0,1.0,02/02/2009,0.0,0.0,0.0,0.0,13900,16
-29,Firmy,2007.0,219 000 km,Manualna,5,Srebrny,1.0,NaN,1.0,1.0,NaN,0.0,0.0,0.0,0.0,9900,12
-30,Firmy,2008.0,119 120 km,Manualna,3,Czerwony,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,12800,12
-31,Firmy,2008.0,173 746 km,Manualna,5,Srebrny,1.0,Polska,0.0,1.0,10/06/2008,1.0,0.0,0.0,0.0,11900,15
-32,Firmy,2009.0,170 000 km,Manualna,5,Biały,0.0,Francja,0.0,0.0,NaN,0.0,0.0,0.0,0.0,6900,15
-33,Firmy,2008.0,167 000 km,Manualna,3,Inny kolor,0.0,Austria,0.0,0.0,NaN,1.0,0.0,0.0,0.0,10500,15
-34,Firmy,2011.0,92 000 km,Manualna,5,Czerwony,0.0,NaN,0.0,0.0,11/10/2011,0.0,0.0,0.0,0.0,11500,3
-35,Osoby prywatnej,2009.0,102 000 km,Manualna,5,Czerwony,1.0,Niemcy,1.0,0.0,05/03/2009,0.0,0.0,0.0,0.0,8990,5
-36,Firmy,2011.0,151 000 km,Manualna,5,Szary,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,13700,15
-37,Firmy,2009.0,186 642 km,Manualna,3,Szary,1.0,Niemcy,0.0,0.0,15/09/2009,0.0,0.0,0.0,0.0,11400,15
-38,Osoby prywatnej,2009.0,200 000 km,Manualna,5,Czerwony,0.0,Niemcy,1.0,0.0,27/07/2009,0.0,0.0,0.0,0.0,10600,9
-39,Osoby prywatnej,2008.0,210 000 km,Manualna,5,Inny kolor,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,8900,1
-40,Firmy,2006.0,166 000 km,Manualna,5,Szary,1.0,NaN,1.0,1.0,NaN,0.0,0.0,0.0,0.0,8200,3
-41,Osoby prywatnej,2008.0,122 000 km,Manualna,5,Czerwony,0.0,Polska,1.0,0.0,08/07/2008,0.0,0.0,0.0,0.0,8950,6
-42,Osoby prywatnej,2007.0,168 000 km,Manualna,5,Szary,1.0,Niemcy,1.0,1.0,NaN,0.0,0.0,0.0,0.0,9300,15
-43,Osoby prywatnej,2011.0,195 148 km,Manualna,5,Biały,1.0,Niemcy,1.0,1.0,NaN,1.0,0.0,0.0,0.0,15300,9
-44,Firmy,2007.0,113 000 km,Manualna,5,Niebieski,0.0,NaN,0.0,0.0,20/11/2007,1.0,0.0,0.0,0.0,10900,11
-45,Osoby prywatnej,2005.0,162 586 km,Manualna,5,Szary,0.0,Polska,1.0,0.0,23/07/2007,1.0,0.0,0.0,0.0,7000,11
-46,Firmy,2009.0,127 000 km,Manualna,5,Czerwony,1.0,Niemcy,1.0,1.0,25/09/2009,0.0,0.0,0.0,0.0,10900,5
-47,Firmy,2013.0,96 000 km,Manualna,5,Biały,1.0,NaN,0.0,1.0,NaN,1.0,0.0,0.0,0.0,16900,15
-48,Firmy,2006.0,190 000 km,Manualna,5,Szary,1.0,Niemcy,1.0,1.0,NaN,0.0,0.0,0.0,0.0,9900,7
-49,Firmy,2013.0,170 000 km,Manualna,3,Biały,0.0,Niemcy,0.0,0.0,NaN,1.0,0.0,0.0,0.0,15990,6
-50,Osoby prywatnej,2007.0,150 645 km,Manualna,5,Czarny,0.0,Niemcy,0.0,0.0,28/09/2007,1.0,0.0,0.0,0.0,10900,15
-51,Osoby prywatnej,2010.0,147 600 km,Manualna,5,Srebrny,0.0,Austria,0.0,0.0,10/03/2010,1.0,0.0,0.0,0.0,11500,8
-52,Firmy,2013.0,178 000 km,Manualna,3,Biały,1.0,Niemcy,1.0,1.0,24/10/2013,0.0,1.0,0.0,0.0,14999,7
-53,Osoby prywatnej,2014.0,122 830 km,Manualna,5,Czerwony,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,19600,1
-54,Osoby prywatnej,2009.0,124 850 km,Manualna,5,Niebieski,1.0,NaN,1.0,1.0,13/02/2009,0.0,0.0,0.0,0.0,13999,1
-55,Firmy,2010.0,93 000 km,Manualna,5,Czerwony,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,14900,9
-56,Osoby prywatnej,2008.0,178 000 km,Manualna,5,Czerwony,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,9900,12
-57,Osoby prywatnej,2012.0,139 000 km,Manualna,5,Biały,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,15900,16
-58,Firmy,2014.0,138 000 km,Manualna,5,Biały,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,17900,9
-59,Firmy,2008.0,85 000 km,Manualna,3,Czarny,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,11900,7
-60,Firmy,2013.0,114 632 km,Manualna,3,Biały,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,16400,12
-61,Firmy,2010.0,117 000 km,Manualna,5,Czarny,1.0,Niemcy,0.0,1.0,NaN,0.0,0.0,0.0,0.0,13400,12
-62,Osoby prywatnej,2007.0,148 000 km,Manualna,5,Srebrny,1.0,NaN,1.0,0.0,NaN,0.0,0.0,0.0,0.0,10900,12
-63,Firmy,2013.0,98 000 km,Manualna,5,Czerwony,1.0,Niemcy,0.0,0.0,21/05/2014,0.0,1.0,0.0,0.0,20900,2
-64,Firmy,2006.0,178 000 km,Manualna,5,Czerwony,0.0,NaN,1.0,0.0,NaN,0.0,0.0,0.0,0.0,7700,11
-65,Firmy,2008.0,171 000 km,Manualna,5,Czerwony,1.0,Niemcy,1.0,0.0,30/01/0009,0.0,0.0,0.0,0.0,10900,16
-66,Osoby prywatnej,2010.0,139 000 km,Manualna,3,Szary,1.0,Niemcy,1.0,1.0,23/02/2010,0.0,0.0,0.0,0.0,11999,16
-67,Firmy,2010.0,160 000 km,Manualna,5,Brązowy,1.0,Polska,0.0,1.0,27/10/2010,0.0,1.0,0.0,0.0,12900,5
-68,Osoby prywatnej,2009.0,166 000 km,Manualna,3,Niebieski,1.0,Niemcy,1.0,0.0,02/07/2009,0.0,0.0,0.0,0.0,11400,6
-69,Osoby prywatnej,2011.0,105 500 km,Manualna,5,Szary,1.0,NaN,0.0,0.0,30/12/2011,0.0,0.0,0.0,0.0,12600,4
-70,Firmy,2006.0,86 000 km,Manualna,5,Inny kolor,1.0,NaN,1.0,1.0,NaN,0.0,1.0,0.0,0.0,8800,1
-71,Firmy,2011.0,169 000 km,Manualna,5,Inny kolor,1.0,Belgia,1.0,1.0,29/06/2011,0.0,1.0,0.0,0.0,14900,9
-72,Firmy,2010.0,97 000 km,Manualna,5,Szary,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,13800,7
-73,Osoby prywatnej,2006.0,123 421 km,Manualna,5,Inny kolor,1.0,NaN,1.0,1.0,NaN,0.0,0.0,0.0,0.0,8900,1
-74,Osoby prywatnej,2008.0,183 083 km,Manualna,5,Szary,1.0,Niemcy,1.0,1.0,03/02/2009,0.0,0.0,0.0,0.0,11900,13
-75,Firmy,2008.0,168 000 km,Manualna,5,Niebieski,1.0,Niemcy,0.0,0.0,NaN,0.0,0.0,0.0,0.0,9900,4
-76,Osoby prywatnej,2008.0,96 000 km,Manualna,3,Niebieski,0.0,Niemcy,1.0,1.0,NaN,0.0,0.0,0.0,0.0,11200,12
-77,Firmy,2006.0,166 000 km,Manualna,5,Czerwony,0.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,10800,7
-78,Firmy,2008.0,146 000 km,Manualna,5,Czarny,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,14900,7
-79,Firmy,2010.0,121 542 km,Manualna,5,Czarny,1.0,Niemcy,1.0,1.0,NaN,1.0,1.0,0.0,0.0,14400,12
-80,Firmy,2009.0,164 340 km,Manualna,5,Czarny,1.0,NaN,1.0,1.0,NaN,0.0,1.0,0.0,0.0,13900,2
-81,Firmy,2012.0,148 000 km,Manualna,3,Biały,1.0,NaN,1.0,0.0,NaN,1.0,1.0,0.0,0.0,10900,3
-82,Firmy,2014.0,126 900 km,Manualna,5,Brązowy,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,16900,13
-83,Firmy,2009.0,108 298 km,Manualna,5,Szary,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,16600,12
-84,Osoby prywatnej,2013.0,59 000 km,Manualna,5,Czerwony,1.0,Polska,1.0,1.0,NaN,1.0,1.0,0.0,0.0,21500,5
-85,Firmy,2008.0,152 388 km,Manualna,5,Srebrny,1.0,Niemcy,1.0,1.0,21/04/2008,0.0,1.0,0.0,0.0,9999,7
-86,Osoby prywatnej,2009.0,158 000 km,Manualna,5,Niebieski,1.0,Niemcy,1.0,1.0,17/07/2009,0.0,0.0,0.0,0.0,12700,9
-87,Osoby prywatnej,2008.0,164 500 km,Manualna,5,Szary,0.0,NaN,1.0,1.0,NaN,1.0,0.0,0.0,0.0,13900,6
-88,Firmy,2006.0,134 584 km,Manualna,3,Czarny,1.0,Niemcy,1.0,0.0,28/09/2006,0.0,1.0,0.0,0.0,12500,9
-89,Osoby prywatnej,2009.0,125 000 km,Manualna,3,Czerwony,0.0,NaN,0.0,0.0,26/11/2009,0.0,0.0,0.0,0.0,9700,10
-90,Firmy,2009.0,127 300 km,Manualna,5,Niebieski,1.0,Niemcy,1.0,1.0,04/10/2009,0.0,0.0,0.0,0.0,11999,7
-91,Osoby prywatnej,2010.0,169 000 km,Manualna,5,Szary,1.0,Niemcy,1.0,0.0,NaN,0.0,0.0,0.0,0.0,15900,9
-92,Firmy,2012.0,158 060 km,Manualna,5,Srebrny,1.0,Austria,0.0,0.0,30/08/2012,0.0,0.0,0.0,0.0,15900,12
-93,Firmy,2013.0,95 000 km,Manualna,5,Czarny,1.0,Polska,1.0,1.0,04/04/2014,1.0,1.0,0.0,0.0,19555,15
-94,Osoby prywatnej,2007.0,139 310 km,Manualna,3,Beżowy,1.0,Niemcy,0.0,0.0,26/02/2007,0.0,0.0,0.0,0.0,10900,6
-95,Firmy,2008.0,193 000 km,Manualna,5,Czarny,1.0,Niemcy,0.0,0.0,NaN,0.0,0.0,0.0,0.0,12500,6
-96,Firmy,2012.0,112 000 km,Manualna,5,Biały,1.0,Niemcy,0.0,1.0,18/04/2012,1.0,0.0,0.0,0.0,17900,14
-97,Osoby prywatnej,2007.0,159 917 km,Manualna,5,Czarny,0.0,Niemcy,1.0,1.0,21/08/2007,0.0,0.0,0.0,0.0,10700,11
-98,Firmy,2010.0,109 000 km,Manualna,5,Niebieski,0.0,Niemcy,1.0,0.0,15/02/2010,0.0,0.0,0.0,0.0,17900,4
-99,Firmy,2007.0,131 288 km,Manualna,3,Niebieski,1.0,Niemcy,1.0,1.0,NaN,0.0,0.0,0.0,0.0,9900,2
-100,Osoby prywatnej,2008.0,112 000 km,Manualna,5,Szary,1.0,Niemcy,1.0,1.0,NaN,0.0,0.0,0.0,0.0,13900,12
-101,Osoby prywatnej,2011.0,136 000 km,Manualna,5,Szary,1.0,Niemcy,0.0,0.0,30/08/2011,0.0,0.0,0.0,0.0,13900,1
-102,Osoby prywatnej,2014.0,149 000 km,Manualna,5,Szary,1.0,NaN,0.0,0.0,NaN,0.0,1.0,0.0,0.0,16500,13
-103,Firmy,2007.0,246 000 km,Manualna,5,Niebieski,1.0,Niemcy,0.0,0.0,28/02/2007,0.0,0.0,0.0,0.0,9900,15
-104,Firmy,2008.0,164 000 km,Manualna,5,Czerwony,1.0,Niemcy,0.0,1.0,NaN,0.0,0.0,0.0,0.0,12600,5
-105,Firmy,2008.0,127 000 km,Manualna,5,Złoty,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,16500,12
-106,Firmy,2008.0,158 600 km,Manualna,5,Niebieski,1.0,NaN,1.0,1.0,NaN,0.0,0.0,0.0,0.0,10500,13
-107,Osoby prywatnej,2013.0,128 666 km,Manualna,5,Czarny,0.0,NaN,0.0,0.0,25/06/2013,1.0,0.0,0.0,0.0,18900,7
-108,Osoby prywatnej,2006.0,104 834 km,Manualna,5,Niebieski,0.0,Niemcy,1.0,1.0,NaN,0.0,0.0,0.0,0.0,9900,7
-109,Osoby prywatnej,2007.0,118 000 km,Manualna,5,Czerwony,1.0,Niemcy,1.0,1.0,11/06/2007,0.0,0.0,0.0,0.0,10900,5
-110,Osoby prywatnej,2005.0,128 011 km,Manualna,5,Niebieski,0.0,Polska,0.0,0.0,23/06/2005,0.0,0.0,0.0,0.0,8500,3
-111,Firmy,2009.0,112 000 km,Manualna,3,Inny kolor,1.0,Niemcy,1.0,0.0,12/08/2009,0.0,1.0,0.0,0.0,11900,7
-112,Firmy,2009.0,65 000 km,Manualna,5,Inny kolor,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,12900,7
-113,Osoby prywatnej,2007.0,156 000 km,Manualna,5,Niebieski,1.0,NaN,1.0,1.0,NaN,0.0,0.0,0.0,0.0,12700,7
-114,Firmy,2005.0,260 000 km,Manualna,3,Srebrny,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,4950,6
-115,Osoby prywatnej,2009.0,149 000 km,Manualna,5,Srebrny,0.0,NaN,1.0,0.0,NaN,0.0,0.0,0.0,0.0,13800,2
-116,Osoby prywatnej,2008.0,162 500 km,Manualna,3,Srebrny,0.0,NaN,0.0,0.0,10/09/2009,0.0,0.0,0.0,0.0,6300,1
-117,Osoby prywatnej,2007.0,117 000 km,Manualna,3,Srebrny,0.0,NaN,1.0,1.0,NaN,0.0,0.0,0.0,0.0,7900,1
-118,Osoby prywatnej,2008.0,145 234 km,Manualna,5,Czerwony,0.0,Niemcy,0.0,0.0,NaN,0.0,0.0,0.0,0.0,12900,14
-119,Osoby prywatnej,2011.0,157 771 km,Manualna,5,Srebrny,0.0,NaN,1.0,0.0,28/02/2011,0.0,0.0,0.0,0.0,11000,1
-120,Osoby prywatnej,2013.0,50 634 km,Manualna,5,Inny kolor,0.0,NaN,1.0,0.0,15/05/2013,1.0,0.0,0.0,0.0,16300,15
-121,Osoby prywatnej,2006.0,165 500 km,Manualna,3,Czerwony,0.0,NaN,1.0,0.0,30/01/2006,0.0,0.0,0.0,0.0,5200,7
-122,Osoby prywatnej,2006.0,230 100 km,Manualna,3,Srebrny,0.0,NaN,0.0,0.0,07/09/2006,0.0,0.0,0.0,0.0,6999,15
-123,Firmy,2010.0,160 111 km,Manualna,5,Srebrny,1.0,NaN,1.0,1.0,NaN,1.0,1.0,0.0,0.0,15900,14
-124,Osoby prywatnej,2008.0,98 000 km,Manualna,5,Srebrny,0.0,Polska,1.0,1.0,24/10/2008,1.0,0.0,0.0,0.0,12500,10
-125,Osoby prywatnej,2011.0,120 070 km,Manualna,5,Czerwony,1.0,NaN,1.0,1.0,23/06/2011,1.0,1.0,0.0,0.0,16900,7
-126,Osoby prywatnej,2006.0,264 000 km,Manualna,5,Srebrny,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,6999,7
-127,Osoby prywatnej,2007.0,158 441 km,Manualna,3,Bordowy,0.0,Niemcy,1.0,0.0,12/06/2007,1.0,0.0,0.0,0.0,8500,14
-128,Osoby prywatnej,2011.0,79 942 km,Manualna,3,Srebrny,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,13900,12
-129,Osoby prywatnej,2008.0,122 000 km,Manualna,5,Czarny,0.0,NaN,0.0,1.0,NaN,0.0,0.0,0.0,0.0,12900,15
-130,Osoby prywatnej,2008.0,170 000 km,Manualna,5,Srebrny,1.0,Niemcy,1.0,1.0,NaN,0.0,0.0,0.0,0.0,16999,6
-131,Osoby prywatnej,2008.0,173 230 km,Manualna,5,Czerwony,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,10900,15
-132,Osoby prywatnej,2006.0,100 000 km,Manualna,5,Srebrny,0.0,NaN,0.0,0.0,NaN,1.0,0.0,0.0,0.0,15000,4
-133,Firmy,2009.0,124 000 km,Manualna,3,Czerwony,0.0,Niemcy,0.0,0.0,01/10/2009,0.0,0.0,0.0,0.0,11400,3
-134,Osoby prywatnej,2006.0,120 500 km,Manualna,3,Czarny,0.0,Polska,1.0,1.0,10/09/2006,1.0,1.0,0.0,0.0,9900,16
-135,Firmy,2013.0,110 000 km,Manualna,5,Czerwony,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,17999,16
-136,Firmy,2008.0,140 000 km,Manualna,5,Czarny,1.0,Niemcy,1.0,0.0,15/02/2008,0.0,0.0,0.0,0.0,11900,11
-137,Osoby prywatnej,2006.0,140 123 km,Manualna,5,Czarny,1.0,NaN,1.0,1.0,NaN,0.0,0.0,0.0,0.0,9900,15
-138,Firmy,2006.0,139 000 km,Manualna,5,Szary,1.0,Niemcy,1.0,1.0,02/03/2006,0.0,0.0,0.0,0.0,11000,5
-139,Firmy,2007.0,204 000 km,Manualna,3,Czerwony,1.0,Niemcy,0.0,0.0,NaN,1.0,1.0,0.0,0.0,8900,12
-140,Osoby prywatnej,2007.0,74 300 km,Manualna,5,Czarny,1.0,Niemcy,0.0,0.0,27/09/2007,0.0,0.0,0.0,0.0,12700,9
-141,Firmy,2007.0,182 358 km,Manualna,3,Niebieski,1.0,Niemcy,1.0,1.0,NaN,0.0,0.0,0.0,0.0,9500,12
-142,Osoby prywatnej,2013.0,210 000 km,Manualna,5,Biały,0.0,Polska,1.0,0.0,30/05/2019,1.0,0.0,0.0,0.0,11400,1
-143,Osoby prywatnej,2009.0,77 252 km,Manualna,5,Niebieski,0.0,Niemcy,1.0,1.0,01/07/2009,0.0,0.0,0.0,0.0,10800,4
-144,Firmy,2008.0,155 000 km,Manualna,5,Czerwony,1.0,NaN,0.0,0.0,NaN,1.0,0.0,0.0,0.0,13000,11
-145,Firmy,2009.0,180 000 km,Manualna,5,Niebieski,1.0,Belgia,1.0,1.0,NaN,0.0,1.0,0.0,0.0,12999,12
-146,Osoby prywatnej,2006.0,192 950 km,Manualna,3,Szary,0.0,Niemcy,0.0,0.0,NaN,0.0,0.0,0.0,0.0,8600,14
-147,Firmy,2006.0,163 000 km,Manualna,5,Niebieski,1.0,NaN,0.0,1.0,NaN,0.0,1.0,0.0,0.0,11900,5
-148,Firmy,2008.0,97 544 km,Manualna,5,Srebrny,1.0,Niemcy,0.0,1.0,09/07/2008,1.0,1.0,0.0,0.0,13900,2
-149,Firmy,2008.0,185 000 km,Manualna,3,Czerwony,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,6900,9
-150,Osoby prywatnej,2010.0,152 889 km,Manualna,5,Czerwony,0.0,NaN,0.0,0.0,21/12/2010,0.0,0.0,0.0,0.0,12900,16
-151,Firmy,2009.0,144 000 km,Manualna,5,Szary,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,13500,12
-152,Osoby prywatnej,2006.0,207 000 km,Manualna,3,Szary,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,6900,10
-153,Osoby prywatnej,2009.0,123 000 km,Manualna,5,Czerwony,0.0,NaN,0.0,0.0,24/06/2009,0.0,0.0,0.0,0.0,14000,13
-154,Firmy,2007.0,214 301 km,Manualna,5,Szary,1.0,Polska,1.0,1.0,21/02/2007,1.0,1.0,0.0,0.0,11500,7
-155,Osoby prywatnej,2008.0,145 000 km,Manualna,5,Srebrny,1.0,NaN,1.0,0.0,NaN,0.0,0.0,0.0,0.0,9999,13
-156,Osoby prywatnej,2010.0,191 000 km,Manualna,5,Niebieski,1.0,Niemcy,0.0,0.0,10/06/2010,0.0,0.0,0.0,0.0,12400,7
-157,Firmy,2007.0,183 000 km,Manualna,5,Srebrny,0.0,Polska,1.0,0.0,04/06/2007,1.0,0.0,0.0,0.0,8700,12
-158,Firmy,2009.0,220 000 km,Manualna,5,Niebieski,1.0,Niemcy,0.0,0.0,NaN,0.0,0.0,0.0,0.0,7950,16
-159,Firmy,2011.0,79 300 km,Manualna,3,Biały,0.0,NaN,1.0,0.0,08/12/2011,1.0,0.0,0.0,0.0,13400,1
-160,Firmy,2006.0,59 300 km,Manualna,3,Czerwony,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,11400,15
-161,Firmy,2012.0,129 000 km,Manualna,5,Czerwony,1.0,Niemcy,1.0,1.0,30/11/2012,0.0,1.0,0.0,0.0,17400,9
-162,Osoby prywatnej,2008.0,145 000 km,Manualna,5,Srebrny,1.0,Niemcy,1.0,0.0,NaN,0.0,0.0,0.0,0.0,11900,6
-163,Firmy,2009.0,121 300 km,Manualna,3,Srebrny,1.0,NaN,1.0,0.0,02/04/2009,0.0,0.0,0.0,0.0,9700,15
-164,Osoby prywatnej,2009.0,166 752 km,Manualna,3,Czerwony,0.0,Niemcy,1.0,0.0,27/05/2009,0.0,0.0,0.0,0.0,7900,15
-165,Firmy,2006.0,130 000 km,Manualna,3,Srebrny,0.0,NaN,0.0,0.0,24/01/2006,1.0,0.0,0.0,0.0,7900,16
-166,Osoby prywatnej,2012.0,64 040 km,Manualna,5,Szary,0.0,Francja,0.0,0.0,NaN,1.0,0.0,0.0,0.0,15000,15
-167,Osoby prywatnej,2006.0,130 000 km,Manualna,5,Czarny,1.0,Niemcy,1.0,1.0,NaN,0.0,0.0,0.0,0.0,11900,6
-168,Osoby prywatnej,2010.0,155 000 km,Manualna,5,Biały,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,13400,6
-169,Firmy,2007.0,150 000 km,Manualna,3,Srebrny,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,4900,3
-170,Osoby prywatnej,2007.0,65 000 km,Manualna,5,Srebrny,1.0,Niemcy,1.0,1.0,NaN,0.0,0.0,0.0,0.0,11400,3
-171,Osoby prywatnej,2007.0,128 400 km,Manualna,5,Czarny,0.0,Niemcy,1.0,0.0,28/06/2007,1.0,0.0,0.0,0.0,11900,12
-172,Osoby prywatnej,2011.0,125 000 km,Manualna,5,Szary,1.0,NaN,0.0,0.0,11/12/2011,0.0,0.0,0.0,0.0,13299,4
-173,Firmy,2011.0,82 000 km,Manualna,5,Czerwony,1.0,Niemcy,1.0,1.0,10/11/2011,0.0,1.0,0.0,0.0,17900,2
-174,Osoby prywatnej,2009.0,220 000 km,Manualna,3,Srebrny,0.0,NaN,1.0,0.0,30/06/2009,0.0,0.0,0.0,0.0,5900,4
-175,Osoby prywatnej,2009.0,140 000 km,Manualna,3,Czarny,0.0,NaN,0.0,0.0,30/09/2009,0.0,0.0,0.0,0.0,9500,12
-176,Osoby prywatnej,2012.0,158 170 km,Manualna,5,Srebrny,0.0,NaN,0.0,0.0,08/12/2020,0.0,0.0,0.0,0.0,11900,1
-177,Osoby prywatnej,2012.0,160 000 km,Manualna,5,Biały,0.0,Niemcy,1.0,1.0,NaN,0.0,0.0,0.0,0.0,13900,16
-178,NaN,NaN,NaN,NaN,NaN,NaN,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,9700,16
-179,NaN,NaN,NaN,NaN,NaN,NaN,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,16700,15
-180,NaN,NaN,NaN,NaN,NaN,NaN,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,15800,9
+0,Osoby prywatnej,2019.0,15 000 km,Manualna,5,Biały,0.0,Polska,1.0,1.0,13/08/2019,1.0,1.0,0.0,0.0,40000,7
+1,Osoby prywatnej,2012.0,139 000 km,Manualna,5,Biały,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,15900,16
+2,Osoby prywatnej,2006.0,90 812 km,Manualna,5,Szary,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,12500,6
+3,Osoby prywatnej,2012.0,70 370 km,Manualna,5,Inny kolor,0.0,NaN,0.0,0.0,14/05/2012,0.0,0.0,0.0,0.0,17900,5
+4,Firmy,2009.0,170 000 km,Manualna,5,Niebieski,1.0,Niemcy,1.0,1.0,NaN,0.0,0.0,1.0,0.0,13900,7
+5,Osoby prywatnej,2009.0,164 000 km,Manualna,3,Czerwony,1.0,Niemcy,1.0,1.0,14/07/2009,0.0,0.0,0.0,0.0,11900,7
+6,Osoby prywatnej,2006.0,159 800 km,Manualna,3,Czerwony,1.0,NaN,0.0,0.0,NaN,0.0,0.0,1.0,0.0,7900,15
+7,Osoby prywatnej,2008.0,128 000 km,Manualna,3,Czerwony,1.0,Niemcy,1.0,1.0,NaN,0.0,0.0,0.0,0.0,11900,5
+8,Firmy,2008.0,129 803 km,Manualna,5,Szary,0.0,Polska,0.0,1.0,09/04/2008,1.0,0.0,0.0,0.0,12000,12
+9,Firmy,2010.0,160 000 km,Manualna,5,Brązowy,1.0,Polska,0.0,1.0,27/10/2010,0.0,1.0,0.0,0.0,12900,5
+10,Osoby prywatnej,2008.0,119 000 km,Manualna,5,Szary,0.0,Polska,0.0,1.0,15/10/2008,1.0,0.0,1.0,0.0,12900,7
+11,Firmy,2010.0,97 000 km,Manualna,5,Szary,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,13800,7
+12,Firmy,2008.0,140 000 km,Manualna,5,Czarny,1.0,Niemcy,1.0,0.0,15/02/2008,0.0,0.0,0.0,0.0,11900,11
+13,Osoby prywatnej,2006.0,140 123 km,Manualna,5,Czarny,1.0,NaN,1.0,1.0,NaN,0.0,0.0,1.0,0.0,9900,15
+14,Osoby prywatnej,2006.0,106 000 km,Manualna,3,Czarny,0.0,Niemcy,1.0,0.0,NaN,0.0,0.0,0.0,0.0,3499,15
+15,Firmy,2006.0,139 000 km,Manualna,5,Szary,1.0,Niemcy,1.0,1.0,02/03/2006,0.0,0.0,0.0,0.0,11000,5
+16,Osoby prywatnej,2007.0,117 000 km,Manualna,3,Srebrny,0.0,NaN,1.0,1.0,NaN,1.0,0.0,1.0,0.0,7900,1
+17,Firmy,2007.0,204 000 km,Manualna,3,Czerwony,1.0,Niemcy,0.0,0.0,NaN,1.0,1.0,0.0,0.0,8900,12
+18,Osoby prywatnej,2007.0,74 300 km,Manualna,5,Czarny,1.0,Niemcy,0.0,0.0,27/09/2007,0.0,0.0,0.0,0.0,12700,9
+19,Firmy,2007.0,182 358 km,Manualna,3,Niebieski,1.0,Niemcy,1.0,1.0,NaN,0.0,0.0,0.0,0.0,9500,12
+20,Firmy,2013.0,170 000 km,Manualna,5,Biały,1.0,Dania,0.0,1.0,NaN,0.0,0.0,0.0,0.0,11500,16
+21,Osoby prywatnej,2013.0,210 000 km,Manualna,5,Biały,0.0,Polska,1.0,0.0,30/05/2019,1.0,0.0,0.0,0.0,11400,1
+22,Firmy,2006.0,166 000 km,Manualna,5,Czerwony,0.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,10800,7
+23,Osoby prywatnej,2006.0,139 000 km,Manualna,3,Szary,0.0,NaN,1.0,1.0,NaN,0.0,0.0,0.0,0.0,11500,8
+24,Firmy,2009.0,180 000 km,Manualna,5,Niebieski,1.0,Belgia,0.0,1.0,NaN,0.0,1.0,1.0,0.0,11999,12
+25,Osoby prywatnej,2006.0,192 950 km,Manualna,3,Szary,0.0,Niemcy,0.0,0.0,NaN,0.0,0.0,0.0,0.0,8600,14
+26,Firmy,2010.0,121 542 km,Manualna,5,Czarny,1.0,Niemcy,1.0,1.0,NaN,1.0,1.0,0.0,0.0,14400,12
+27,Firmy,2007.0,163 000 km,Manualna,3,Czarny,1.0,NaN,1.0,1.0,NaN,0.0,0.0,1.0,0.0,6900,6
+28,Firmy,2008.0,97 544 km,Manualna,5,Srebrny,1.0,Niemcy,0.0,1.0,09/07/2008,1.0,1.0,0.0,0.0,13900,2
+29,Firmy,2008.0,185 000 km,Manualna,3,Czerwony,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,6900,9
+30,Osoby prywatnej,2010.0,152 889 km,Manualna,5,Czerwony,0.0,NaN,0.0,0.0,21/12/2010,0.0,0.0,0.0,0.0,12900,16
+31,Firmy,2008.0,152 388 km,Manualna,5,Srebrny,1.0,Niemcy,1.0,1.0,21/04/2008,0.0,1.0,0.0,0.0,9999,7
+32,Osoby prywatnej,2009.0,158 000 km,Manualna,5,Niebieski,1.0,Niemcy,1.0,1.0,17/07/2009,0.0,0.0,0.0,0.0,12700,9
+33,Osoby prywatnej,2006.0,207 000 km,Manualna,3,Szary,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,6900,10
+34,Osoby prywatnej,2009.0,123 000 km,Manualna,5,Czerwony,0.0,NaN,0.0,0.0,24/06/2009,0.0,0.0,0.0,0.0,14000,13
+35,Firmy,2006.0,134 584 km,Manualna,3,Czarny,1.0,Niemcy,1.0,0.0,28/09/2006,0.0,1.0,1.0,0.0,12500,9
+36,Osoby prywatnej,2007.0,160 000 km,Manualna,5,Niebieski,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,10500,12
+37,Osoby prywatnej,2008.0,145 000 km,Manualna,5,Srebrny,1.0,NaN,1.0,0.0,NaN,0.0,0.0,0.0,0.0,9999,13
+38,Osoby prywatnej,2010.0,135 000 km,Manualna,5,Szary,0.0,NaN,0.0,0.0,06/01/2010,0.0,0.0,0.0,0.0,13900,5
+39,Osoby prywatnej,2010.0,191 000 km,Manualna,5,Niebieski,1.0,Niemcy,0.0,0.0,10/06/2010,0.0,0.0,0.0,0.0,11900,7
+40,Firmy,2007.0,183 000 km,Manualna,5,Srebrny,0.0,Polska,1.0,0.0,04/06/2007,1.0,0.0,0.0,0.0,8700,12
+41,Osoby prywatnej,2010.0,169 000 km,Manualna,5,Szary,1.0,Niemcy,1.0,0.0,NaN,0.0,0.0,0.0,0.0,15900,9
+42,Firmy,2009.0,220 000 km,Manualna,5,Niebieski,1.0,Niemcy,0.0,0.0,NaN,0.0,0.0,0.0,0.0,7950,16
+43,Firmy,2011.0,79 300 km,Manualna,3,Biały,0.0,NaN,1.0,0.0,08/12/2011,1.0,0.0,1.0,0.0,13400,1
+44,Osoby prywatnej,2011.0,154 000 km,Manualna,5,Szary,0.0,NaN,0.0,0.0,NaN,0.0,1.0,0.0,0.0,11500,1
+45,Firmy,2006.0,59 300 km,Manualna,3,Czerwony,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,11400,15
+46,Firmy,2007.0,246 000 km,Manualna,5,Niebieski,1.0,Niemcy,0.0,0.0,28/02/2007,0.0,0.0,0.0,0.0,9900,15
+47,Firmy,2008.0,127 000 km,Manualna,5,Złoty,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,1.0,0.0,16500,12
+48,Osoby prywatnej,2010.0,83 000 km,Manualna,5,Biały,1.0,Francja,1.0,1.0,13/03/2010,1.0,0.0,0.0,0.0,12400,15
+49,Firmy,2009.0,165 000 km,Manualna,3,Czarny,1.0,Niemcy,0.0,0.0,NaN,0.0,0.0,0.0,0.0,9900,6
+50,Firmy,2006.0,130 000 km,Manualna,3,Srebrny,0.0,NaN,0.0,0.0,24/01/2006,1.0,0.0,0.0,0.0,7900,16
+51,Osoby prywatnej,2014.0,100 200 km,Manualna,5,Szary,0.0,NaN,0.0,0.0,NaN,1.0,0.0,0.0,0.0,14500,11
+52,Osoby prywatnej,2012.0,64 040 km,Manualna,5,Szary,0.0,Francja,0.0,0.0,NaN,1.0,0.0,0.0,0.0,15000,15
+53,Osoby prywatnej,2006.0,130 000 km,Manualna,5,Czarny,1.0,Niemcy,1.0,1.0,NaN,0.0,0.0,1.0,0.0,11900,6
+54,Osoby prywatnej,2010.0,155 000 km,Manualna,5,Biały,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,13400,6
+55,Firmy,2007.0,150 000 km,Manualna,3,Srebrny,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,4900,3
+56,Osoby prywatnej,2007.0,65 000 km,Manualna,5,Srebrny,1.0,Niemcy,1.0,1.0,NaN,0.0,0.0,0.0,0.0,11400,3
+57,Osoby prywatnej,2007.0,128 400 km,Manualna,5,Czarny,0.0,Niemcy,1.0,0.0,28/06/2007,1.0,0.0,1.0,0.0,11900,12
+58,Osoby prywatnej,2012.0,135 000 km,Manualna,5,Biały,1.0,NaN,1.0,1.0,25/07/2012,1.0,0.0,0.0,0.0,12700,10
+59,Osoby prywatnej,2006.0,165 500 km,Manualna,3,Czerwony,0.0,NaN,1.0,0.0,30/01/2006,0.0,0.0,0.0,0.0,5200,7
+60,Osoby prywatnej,2011.0,125 000 km,Manualna,5,Szary,1.0,NaN,0.0,0.0,11/12/2011,0.0,0.0,1.0,0.0,13299,4
+61,Osoby prywatnej,2007.0,142 700 km,Manualna,5,Czerwony,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,10900,15
+62,Firmy,2009.0,194 650 km,Manualna,5,Srebrny,1.0,Niemcy,0.0,0.0,NaN,1.0,0.0,0.0,0.0,12900,7
+63,Firmy,2007.0,144 000 km,Manualna,5,Niebieski,0.0,Niemcy,1.0,1.0,NaN,0.0,1.0,1.0,0.0,11200,15
+64,Firmy,2008.0,314 000 km,Manualna,3,Czerwony,1.0,Szwecja,0.0,1.0,12/09/2008,0.0,1.0,0.0,0.0,6400,13
+65,Osoby prywatnej,2012.0,160 661 km,Manualna,5,Biały,1.0,NaN,1.0,1.0,31/05/2012,0.0,0.0,0.0,0.0,17800,1
+66,Firmy,2013.0,112 405 km,Manualna,5,Czerwony,0.0,Polska,0.0,1.0,28/11/2013,1.0,0.0,0.0,0.0,18000,7
+67,Firmy,2010.0,86 000 km,Manualna,5,Biały,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,13333,7
+68,Osoby prywatnej,2014.0,107 000 km,Manualna,5,Czerwony,0.0,Polska,1.0,1.0,26/02/2014,0.0,1.0,0.0,0.0,22900,12
+69,Osoby prywatnej,2007.0,152 000 km,Manualna,3,Szary,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,8900,8
+70,Firmy,2009.0,117 000 km,Manualna,5,Srebrny,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,12999,15
+71,Firmy,2006.0,182 000 km,Manualna,5,Szary,1.0,NaN,0.0,0.0,22/06/2006,0.0,0.0,0.0,0.0,9200,2
+72,Osoby prywatnej,2009.0,115 000 km,Manualna,5,Niebieski,1.0,Niemcy,1.0,1.0,01/04/2009,1.0,0.0,1.0,0.0,13900,7
+73,Firmy,2008.0,129 803 km,Manualna,5,Szary,0.0,Polska,0.0,1.0,09/04/2008,1.0,0.0,0.0,0.0,12300,12
+74,Firmy,2009.0,117 000 km,Manualna,3,Czerwony,1.0,Niemcy,0.0,0.0,30/06/2009,1.0,0.0,0.0,0.0,10900,15
+75,Firmy,2010.0,69 000 km,Manualna,3,Czerwony,1.0,Polska,1.0,1.0,17/12/2010,1.0,1.0,0.0,0.0,14999,12
+76,Firmy,2008.0,124 000 km,Manualna,5,Czerwony,1.0,Szwajcaria,1.0,1.0,12/12/2008,1.0,1.0,0.0,0.0,12400,5
+77,Firmy,2008.0,196 000 km,Manualna,3,Biały,1.0,Niemcy,0.0,0.0,29/09/2008,0.0,0.0,0.0,0.0,8499,5
+78,Firmy,2008.0,53 000 km,Manualna,3,Czerwony,0.0,Polska,0.0,0.0,12/05/2008,0.0,0.0,0.0,0.0,12500,7
+79,Osoby prywatnej,2009.0,149 000 km,Manualna,5,Niebieski,1.0,Niemcy,1.0,1.0,02/02/2009,0.0,0.0,1.0,0.0,13900,16
+80,Firmy,2007.0,219 000 km,Manualna,5,Srebrny,1.0,NaN,1.0,1.0,NaN,0.0,0.0,0.0,0.0,9900,12
+81,Firmy,2008.0,119 120 km,Manualna,3,Czerwony,1.0,NaN,0.0,0.0,NaN,0.0,0.0,1.0,0.0,12800,12
+82,Firmy,2008.0,173 746 km,Manualna,5,Srebrny,1.0,Polska,0.0,1.0,10/06/2008,1.0,0.0,0.0,0.0,11900,15
+83,Firmy,2009.0,170 000 km,Manualna,5,Biały,0.0,Francja,0.0,0.0,NaN,0.0,0.0,0.0,0.0,6900,15
+84,Firmy,2008.0,167 000 km,Manualna,3,Inny kolor,0.0,Austria,0.0,0.0,NaN,1.0,0.0,1.0,0.0,10500,15
+85,Firmy,2011.0,92 000 km,Manualna,5,Czerwony,0.0,NaN,0.0,0.0,11/10/2011,0.0,0.0,0.0,0.0,11500,3
+86,Osoby prywatnej,2009.0,102 000 km,Manualna,5,Czerwony,1.0,Niemcy,1.0,0.0,05/03/2009,0.0,0.0,0.0,0.0,8990,5
+87,Firmy,2011.0,151 000 km,Manualna,5,Szary,1.0,Niemcy,1.0,1.0,NaN,1.0,1.0,0.0,0.0,14990,15
+88,Firmy,2009.0,186 642 km,Manualna,3,Szary,1.0,Niemcy,0.0,0.0,15/09/2009,0.0,0.0,0.0,0.0,11400,15
+89,Osoby prywatnej,2009.0,200 000 km,Manualna,5,Czerwony,0.0,Niemcy,1.0,0.0,27/07/2009,0.0,0.0,0.0,0.0,10500,9
+90,Osoby prywatnej,2008.0,210 000 km,Manualna,5,Inny kolor,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,8900,1
+91,Firmy,2006.0,166 000 km,Manualna,5,Szary,1.0,NaN,1.0,1.0,NaN,0.0,0.0,0.0,0.0,8200,3
+92,Osoby prywatnej,2008.0,122 000 km,Manualna,5,Czerwony,0.0,Polska,1.0,0.0,08/07/2008,0.0,0.0,0.0,0.0,8950,6
+93,Osoby prywatnej,2011.0,195 148 km,Manualna,5,Biały,1.0,Niemcy,1.0,1.0,NaN,1.0,0.0,0.0,0.0,15300,9
+94,Firmy,2007.0,113 000 km,Manualna,5,Niebieski,0.0,NaN,0.0,0.0,20/11/2007,1.0,0.0,1.0,0.0,10900,11
+95,Firmy,2009.0,127 000 km,Manualna,5,Czerwony,1.0,Niemcy,1.0,1.0,25/09/2009,0.0,0.0,0.0,0.0,10900,5
+96,Firmy,2013.0,96 000 km,Manualna,5,Biały,1.0,NaN,0.0,1.0,NaN,1.0,0.0,1.0,0.0,16900,15
+97,Firmy,2006.0,190 000 km,Manualna,5,Szary,1.0,Niemcy,1.0,1.0,NaN,0.0,0.0,1.0,0.0,9900,7
+98,Firmy,2013.0,170 000 km,Manualna,3,Biały,0.0,Niemcy,0.0,0.0,NaN,1.0,0.0,0.0,0.0,15990,6
+99,Osoby prywatnej,2007.0,150 645 km,Manualna,5,Czarny,0.0,Niemcy,0.0,0.0,28/09/2007,1.0,0.0,0.0,0.0,10900,15
+100,Osoby prywatnej,2010.0,147 600 km,Manualna,5,Srebrny,0.0,Austria,0.0,0.0,10/03/2010,1.0,0.0,0.0,0.0,11500,8
+101,Firmy,2013.0,178 000 km,Manualna,3,Biały,1.0,Niemcy,1.0,1.0,24/10/2013,0.0,1.0,0.0,0.0,14999,7
+102,Osoby prywatnej,2014.0,122 830 km,Manualna,5,Czerwony,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,19900,1
+103,Osoby prywatnej,2009.0,124 850 km,Manualna,5,Niebieski,1.0,NaN,1.0,1.0,13/02/2009,0.0,0.0,1.0,0.0,13999,1
+104,Firmy,2010.0,93 000 km,Manualna,5,Czerwony,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,14900,9
+105,Osoby prywatnej,2008.0,178 000 km,Manualna,5,Czerwony,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,9900,12
+106,Firmy,2014.0,138 000 km,Manualna,5,Biały,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,17900,9
+107,Firmy,2008.0,85 000 km,Manualna,3,Czarny,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,11900,7
+108,Firmy,2013.0,114 632 km,Manualna,3,Biały,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,16400,12
+109,Firmy,2010.0,117 000 km,Manualna,5,Czarny,1.0,Niemcy,0.0,1.0,NaN,0.0,0.0,0.0,0.0,13400,12
+110,Osoby prywatnej,2007.0,148 000 km,Manualna,5,Srebrny,1.0,NaN,1.0,0.0,NaN,0.0,0.0,0.0,0.0,10900,12
+111,Firmy,2013.0,98 000 km,Manualna,5,Czerwony,1.0,Niemcy,0.0,0.0,21/05/2014,0.0,1.0,0.0,0.0,20900,2
+112,Firmy,2006.0,178 000 km,Manualna,5,Czerwony,0.0,NaN,1.0,0.0,NaN,0.0,0.0,0.0,0.0,7700,11
+113,Firmy,2008.0,171 000 km,Manualna,5,Czerwony,1.0,Niemcy,1.0,0.0,30/01/0009,0.0,0.0,0.0,0.0,10900,16
+114,Osoby prywatnej,2010.0,139 000 km,Manualna,3,Szary,1.0,Niemcy,1.0,1.0,23/02/2010,0.0,0.0,0.0,0.0,11999,16
+115,Osoby prywatnej,2009.0,166 000 km,Manualna,3,Niebieski,1.0,Niemcy,1.0,0.0,02/07/2009,0.0,0.0,0.0,0.0,11400,6
+116,Osoby prywatnej,2011.0,105 500 km,Manualna,5,Szary,1.0,NaN,0.0,0.0,30/12/2011,0.0,0.0,0.0,0.0,12600,4
+117,Firmy,2006.0,86 000 km,Manualna,5,Inny kolor,1.0,NaN,1.0,1.0,NaN,0.0,1.0,0.0,0.0,8800,1
+118,Osoby prywatnej,2005.0,121 400 km,Manualna,3,Inny kolor,0.0,NaN,0.0,0.0,03/11/2005,1.0,0.0,1.0,0.0,8500,5
+119,Firmy,2011.0,169 000 km,Manualna,5,Inny kolor,1.0,Belgia,1.0,1.0,29/06/2011,0.0,1.0,1.0,0.0,14900,9
+120,Osoby prywatnej,2006.0,123 421 km,Manualna,5,Inny kolor,1.0,NaN,1.0,1.0,NaN,0.0,0.0,0.0,0.0,8900,1
+121,Osoby prywatnej,2008.0,183 083 km,Manualna,5,Szary,1.0,Niemcy,1.0,1.0,03/02/2009,0.0,0.0,0.0,0.0,11900,13
+122,Firmy,2008.0,168 000 km,Manualna,5,Niebieski,1.0,Niemcy,0.0,0.0,NaN,0.0,0.0,1.0,0.0,9900,4
+123,Osoby prywatnej,2008.0,96 000 km,Manualna,3,Niebieski,0.0,Niemcy,1.0,1.0,NaN,0.0,0.0,0.0,0.0,11200,12
+124,Firmy,2008.0,146 000 km,Manualna,5,Czarny,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,14900,7
+125,Firmy,2009.0,164 340 km,Manualna,5,Czarny,1.0,NaN,1.0,1.0,NaN,0.0,1.0,0.0,0.0,13900,2
+126,Firmy,2012.0,148 000 km,Manualna,3,Biały,1.0,NaN,1.0,0.0,NaN,1.0,1.0,1.0,0.0,10900,3
+127,Firmy,2014.0,126 900 km,Manualna,5,Brązowy,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,16900,13
+128,Firmy,2009.0,108 298 km,Manualna,5,Szary,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,16600,12
+129,Osoby prywatnej,2008.0,164 500 km,Manualna,5,Szary,0.0,NaN,1.0,1.0,NaN,1.0,0.0,0.0,0.0,13900,6
+130,Osoby prywatnej,2009.0,125 000 km,Manualna,3,Czerwony,0.0,NaN,0.0,0.0,26/11/2009,0.0,0.0,0.0,0.0,9700,10
+131,Firmy,2009.0,127 300 km,Manualna,5,Niebieski,1.0,Niemcy,1.0,1.0,04/10/2009,0.0,0.0,0.0,0.0,11999,7
+132,Firmy,2012.0,158 060 km,Manualna,5,Srebrny,1.0,Austria,0.0,0.0,30/08/2012,0.0,0.0,0.0,0.0,15900,12
+133,Osoby prywatnej,2007.0,139 310 km,Manualna,3,Beżowy,1.0,Niemcy,0.0,0.0,26/02/2007,0.0,0.0,1.0,0.0,10900,6
+134,Firmy,2008.0,193 000 km,Manualna,5,Czarny,1.0,Niemcy,0.0,0.0,NaN,0.0,0.0,0.0,0.0,12500,6
+135,Firmy,2012.0,112 000 km,Manualna,5,Biały,1.0,Niemcy,0.0,1.0,18/04/2012,1.0,0.0,0.0,0.0,17900,14
+136,Osoby prywatnej,2007.0,159 917 km,Manualna,5,Czarny,0.0,Niemcy,1.0,1.0,21/08/2007,0.0,0.0,0.0,0.0,10700,11
+137,Firmy,2010.0,109 000 km,Manualna,5,Niebieski,0.0,Niemcy,1.0,0.0,15/02/2010,0.0,0.0,1.0,0.0,17900,4
+138,Firmy,2007.0,131 288 km,Manualna,3,Niebieski,1.0,Niemcy,1.0,1.0,NaN,0.0,0.0,0.0,0.0,9900,2
+139,Osoby prywatnej,2008.0,112 000 km,Manualna,5,Szary,1.0,Niemcy,1.0,1.0,NaN,0.0,0.0,0.0,0.0,13900,12
+140,Osoby prywatnej,2011.0,136 000 km,Manualna,5,Szary,1.0,Niemcy,0.0,0.0,30/08/2011,1.0,0.0,0.0,0.0,14200,1
+141,Osoby prywatnej,2014.0,149 000 km,Manualna,5,Szary,1.0,NaN,0.0,0.0,NaN,0.0,1.0,0.0,0.0,16500,13
+142,Firmy,2008.0,164 000 km,Manualna,5,Czerwony,1.0,Niemcy,0.0,1.0,NaN,0.0,0.0,0.0,0.0,12600,5
+143,Firmy,2008.0,158 600 km,Manualna,5,Niebieski,1.0,NaN,1.0,1.0,NaN,0.0,0.0,1.0,0.0,10500,13
+144,Osoby prywatnej,2013.0,128 666 km,Manualna,5,Czarny,0.0,NaN,0.0,0.0,25/06/2013,1.0,0.0,0.0,0.0,18900,7
+145,Osoby prywatnej,2006.0,104 834 km,Manualna,5,Niebieski,0.0,Niemcy,1.0,1.0,NaN,0.0,0.0,1.0,0.0,9900,7
+146,Osoby prywatnej,2007.0,118 000 km,Manualna,5,Czerwony,1.0,Niemcy,1.0,1.0,11/06/2007,0.0,0.0,0.0,0.0,10900,5
+147,Osoby prywatnej,2005.0,128 011 km,Manualna,5,Niebieski,0.0,Niemcy,0.0,0.0,23/06/2005,0.0,0.0,1.0,0.0,8000,3
+148,Firmy,2009.0,112 000 km,Manualna,3,Inny kolor,1.0,Niemcy,1.0,0.0,12/08/2009,0.0,1.0,0.0,0.0,11900,7
+149,Firmy,2009.0,65 000 km,Manualna,5,Inny kolor,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,12900,7
+150,Osoby prywatnej,2007.0,156 000 km,Manualna,5,Niebieski,1.0,NaN,1.0,1.0,NaN,0.0,0.0,0.0,0.0,11700,7
+151,Firmy,2005.0,260 000 km,Manualna,3,Srebrny,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,4950,6
+152,Osoby prywatnej,2009.0,149 000 km,Manualna,5,Srebrny,0.0,NaN,1.0,0.0,NaN,0.0,0.0,0.0,0.0,13800,2
+153,Osoby prywatnej,2008.0,162 500 km,Manualna,3,Srebrny,0.0,NaN,0.0,0.0,10/09/2009,0.0,0.0,0.0,0.0,6300,1
+154,Osoby prywatnej,2008.0,145 234 km,Manualna,5,Czerwony,0.0,Niemcy,0.0,0.0,NaN,0.0,0.0,0.0,0.0,12900,14
+155,Osoby prywatnej,2011.0,157 771 km,Manualna,5,Srebrny,0.0,NaN,1.0,0.0,28/02/2011,0.0,0.0,0.0,0.0,11000,1
+156,Osoby prywatnej,2013.0,50 634 km,Manualna,5,Inny kolor,0.0,NaN,1.0,0.0,15/05/2013,1.0,0.0,1.0,0.0,16300,15
+157,Osoby prywatnej,2006.0,230 100 km,Manualna,3,Srebrny,0.0,NaN,0.0,0.0,07/09/2006,0.0,0.0,0.0,0.0,6999,15
+158,Firmy,2010.0,160 111 km,Manualna,5,Srebrny,1.0,NaN,1.0,1.0,NaN,1.0,1.0,0.0,0.0,15900,14
+159,Osoby prywatnej,2008.0,98 000 km,Manualna,5,Srebrny,0.0,Polska,1.0,1.0,24/10/2008,1.0,0.0,0.0,0.0,12500,10
+160,Osoby prywatnej,2011.0,120 070 km,Manualna,5,Czerwony,1.0,NaN,1.0,1.0,23/06/2011,1.0,1.0,0.0,0.0,16900,7
+161,Osoby prywatnej,2006.0,264 000 km,Manualna,5,Srebrny,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,6999,7
+162,Osoby prywatnej,2007.0,158 441 km,Manualna,3,Bordowy,0.0,Niemcy,1.0,0.0,12/06/2007,1.0,0.0,0.0,0.0,8500,14
+163,Osoby prywatnej,2011.0,79 942 km,Manualna,3,Srebrny,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,13900,12
+164,Osoby prywatnej,2008.0,122 000 km,Manualna,5,Czarny,0.0,NaN,0.0,1.0,NaN,0.0,0.0,1.0,0.0,12900,15
+165,Osoby prywatnej,2008.0,170 000 km,Manualna,5,Srebrny,1.0,Niemcy,1.0,1.0,NaN,0.0,0.0,1.0,0.0,16999,6
+166,Osoby prywatnej,2008.0,173 230 km,Manualna,5,Czerwony,1.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,10900,15
+167,Osoby prywatnej,2006.0,100 000 km,Manualna,5,Srebrny,0.0,NaN,0.0,0.0,NaN,1.0,0.0,0.0,0.0,15000,4
+168,Firmy,2009.0,124 000 km,Manualna,3,Czerwony,0.0,Niemcy,0.0,0.0,01/10/2009,0.0,0.0,0.0,0.0,11400,3
+169,Firmy,2009.0,144 000 km,Manualna,5,Szary,1.0,Niemcy,1.0,1.0,NaN,0.0,1.0,0.0,0.0,13500,12
+170,Osoby prywatnej,2008.0,145 000 km,Manualna,5,Srebrny,1.0,Niemcy,1.0,0.0,NaN,0.0,0.0,1.0,0.0,11900,6
+171,Osoby prywatnej,2009.0,166 752 km,Manualna,3,Czerwony,0.0,Niemcy,1.0,0.0,27/05/2009,0.0,0.0,0.0,0.0,7900,15
+172,Firmy,2011.0,82 000 km,Manualna,5,Czerwony,1.0,Niemcy,1.0,1.0,10/11/2011,0.0,1.0,0.0,0.0,17900,2
+173,Osoby prywatnej,2009.0,220 000 km,Manualna,3,Srebrny,0.0,NaN,1.0,0.0,30/06/2009,0.0,0.0,0.0,0.0,5900,4
+174,NaN,NaN,NaN,NaN,NaN,NaN,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,9700,16
+175,NaN,NaN,NaN,NaN,NaN,NaN,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,16700,15
+176,NaN,NaN,NaN,NaN,NaN,NaN,0.0,NaN,0.0,0.0,NaN,0.0,0.0,0.0,0.0,15800,9
